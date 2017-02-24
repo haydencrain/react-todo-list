@@ -1,23 +1,23 @@
 {
-  "name": "react-motion-todo",
+  "name": "react-todo-list",
   "version": "0.0.1",
-  "description": "React todo list using motion design",
+  "description": "A todo list created using react.js and react-sortable-hoc",
   "keywords": [
     "react",
     "react-component",
     "todo"
   ],
-  "main": "lib/react-motion-todo.js",
+  "main": "lib/react-todo-list.js",
   "scripts": {
     "test": "mocha -R spec --compilers jsx:babel-register test/*.jsx",
     "deploy": "gh-pages -d demo",
     "start": "gulp"
   },
-  "author": "Ajain Vivek",
+  "author": "Hayden Crain",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ajainvivek/react-motion-todo.git"
+    "url": "https://github.com/haydencrain/react-todo-list.git"
   },
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
@@ -54,7 +54,6 @@
     "lodash.shuffle": "^4.2.0",
     "mocha": "^3.1.0",
     "node-notifier": "^4.6.1",
-    "rc-slider": "^5.1.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-radio-group": "^3.0.1",
@@ -66,7 +65,7 @@
     "lodash": "^4.17.4",
     "moment": "^2.17.1",
     "react-keypress": "^0.1.5",
-    "react-motion": "^0.4.7"
+    "react-sortable-hoc": "^0.5.0"
   },
   "peerDependencies": {
     "react": "^15.3.2",
